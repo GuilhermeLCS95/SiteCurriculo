@@ -1,0 +1,178 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Sobre mim";
+}
+<div class="Banner1"></div>
+<div class="TextOverlayingBanner1">
+    Seja bem-vindo! Eu me chamo Guilherme e sou um desenvolvedor <h1>Fullstack.</h1>
+</div>
+<div class="TextNextToIcons">
+    Acesse:
+</div>
+<div class="iconOrganizing1">
+    <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
+        <img id="img1" src="~/js/icons/linkedingray.png" onmouseover="newImgLinkedin()" onmouseout="oldImgLinkedin()">
+    </a>
+    <a href="https://github.com/GuilhermeLCS95" target="_blank">
+        <img id="img2" src="~/js/icons/githubgray.png" onmouseover="newImgGithub()" onmouseout="oldImgGithub()">
+    </a>
+    <a href="Home/DownloadFile/" download>
+        <img id="img3" src="~/js/icons/resumeicongray.png" onmouseover="newImgResume()" onmouseout="oldImgResume()">
+    </a>
+</div>
+<div class="topCenterTextKnowledge">
+    <h2>Conhecimentos</h2>
+    <p>Passe o mouse em cima dos cards para mais informações.</p>
+</div>
+<div class="row">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://www.lexicalcoder.com/wp-content/uploads/2022/09/Vale-a-pena-estudar-c1.jpg"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="purple flip-card-back" onmouseover="playAudio()">
+                <h1>C# ASP.NET</h1>
+                <p>Aprendizado aquirido através de um curso no Udemy.</p>
+                <form action="https://www.udemy.com/certificate/UC-1bb9a752-afa2-45ae-b47c-c68c9bb19d46/" target="_blank">
+                    <input type="submit" value="Udemy" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="blue flip-card-back" onmouseover="playAudio()">
+                <h1>C++</h1>
+                <p>Aprendizado adquirido na faculdade.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://miro.medium.com/max/1200/1*GCu4cNWIU1ElDbY7d4ycZw.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="red flip-card-back" onmouseover="playAudio()">
+                <h1>Java</h1>
+                <p>Aprendizado adquirido no ensino médio técnico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://www.dbacorp.com.br/wp-content/uploads/2017/07/microsoft-sql-server-logo.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="white flip-card-back" onmouseover="playAudio()">
+                <h1>SQL Server</h1>
+                <p>Aprendizado adquirido no ensino médio técnico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://arquivo.devmedia.com.br/marketing/img/curso-curso-de-html-basico-371.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="orange flip-card-back" onmouseover="playAudio()">
+                <h1>HTML</h1>
+                <p>Aprendizado adquirido no ensino médio técnico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://blog.dankicode.com/wp-content/uploads/2019/10/conclusao-de-css-background.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="blue flip-card-back" onmouseover="playAudio()">
+                <h1>CSS</h1>
+                <p>Aprendizado adquirido no ensino médio técnico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://arielfuggini.com/static/29a9f86a9bd7efd96ee9ce8b13124303/a41d1/javascript.jpg"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="yellow flip-card-back" onmouseover="playAudio()">
+                <h1>JavaScript</h1>
+                <p>
+                    Aprendizado adquirido através de diferentes fontes. Dentre elas, as aulas do professor
+                    <a href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_blank">Gustavo Guanabara</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://conexaopanvel.faccat.br/wp-content/uploads/2019/11/git-and-git-bash.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="white flip-card-back" onmouseover="playAudio()">
+                <h1>Git</h1>
+                <p>Aprendizado aquirido através de um curso no Udemy.</p>
+                <form action="https://www.udemy.com/certificate/UC-1bb9a752-afa2-45ae-b47c-c68c9bb19d46/" target="_blank">
+                    <input type="submit" value="Udemy" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/2560px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="blue flip-card-back" onmouseover="playAudio()">
+                <h1>Inglês</h1>
+                <p>Aprendizado adquirido através de muito estudo de consumo de conteúdos em inglês.</p>
+                <p>Nível intermediário.</p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front" onmouseover="playAudio()">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"
+                     style="width:300px;height:200px;">
+            </div>
+            <div class="red flip-card-back" onmouseover="playAudio()">
+                <h1>Espanhol</h1>
+                <p>Aprendizado adquirido na escola.</p>
+                <p>Nível básico.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <p>Acesse:</p>
+</div>
+<div class="iconOrganizing">
+    <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
+        <img id="img1" src="~/js/icons/linkedingray.png" onmouseover="newImgLinkedin()" onmouseout="oldImgLinkedin()">
+    </a>
+    <a href="https://github.com/GuilhermeLCS95" target="_blank">
+        <img id="img2" src="~/js/icons/githubgray.png" onmouseover="newImgGithub()" onmouseout="oldImgGithub()">
+    </a>
+    <a href="Home/DownloadFile/" download>
+        <img id="img3" src="~/js/icons/resumeicongray.png" onmouseover="newImgResume()" onmouseout="oldImgResume()">
+    </a>
+</div> 
