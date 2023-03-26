@@ -9,32 +9,19 @@
     <link rel="stylesheet" href="~/Guilherme.styles.css" asp-append-version="true" />
 </head>
 <body>
-    
-    <header>
-        <!--
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#90ABE8 ">
-            <div class="container-fluid">              
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Knowledge">Conhecimentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="DevTools">Ferramentas de desenvolvimento</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutMe">Sobre mim</a>
-                        </li>
-                            
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        -->
-    </header>
+    <div class="header">    
+    <div class="header-container">
+       <span class="header-content-name">
+          Olá, meu nome é Guilherme Luís e sou um
+       </span>
+       <h1 class="header-content-title">
+          Desenvolvedor Full Stack
+       </h1>
+      <span class="header-content-welcome">
+         Seja bem-vindo ao meu site!
+      </span>
+    </div>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

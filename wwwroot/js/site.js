@@ -2,17 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-var icon = window.document.getElementById('iconAnimation')
-icon.addEventListener('mouseover', iconMouseOver)
-icon.addEventListener('mouseout', iconMouseOut)
-function iconMouseOver() {
-    icon.style.height = "40px";
-    icon.style.width = "40px";
-}
-function iconMouseOut() {
-    icon.style.height = "";
-    icon.style.width = "";
-}
+
+// LinkedIn,Github and CV icons
 
 function newImgLinkedin() {
     document.getElementById("img1").src = "js/icons/linkedin.png";
@@ -32,13 +23,16 @@ function newImgResume() {
 function oldImgResume() {
     document.getElementById("img3").src = "js/icons/resumeicongray.png";
 }
-function playAudio() {
-    var soundEffectFlip = document.getElementById('audio');
-    soundEffectFlip.play();
+
+function newImgResume() {
+    document.getElementById("img3").src = "js/icons/resumeicon.png";
 }
-$(window).resize(function () {
-    area = 50000;
-    width = $(window).width();
-    fontSize = (Math.ceil(area / width));
-    $('div').css('font-size', fontSize);
-}).resize();
+function oldImgResume() {
+    document.getElementById("img3").src = "js/icons/resumeicongray.png";
+}
+
+// Icons in the cards
+
+function ChangeIcon(img, novoSrc) {
+    img.src = novoSrc;
+}

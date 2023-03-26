@@ -18,18 +18,6 @@ namespace Guilherme.Controllers
             return View();
         }
 
-        public IActionResult Knowledge()
-        {
-            return View();
-        }
-        public IActionResult AboutMe()
-        {
-            return View();
-        }
-        public IActionResult DevTools()
-        {
-            return View();
-        }
         public IActionResult DownloadFile()
 
         {

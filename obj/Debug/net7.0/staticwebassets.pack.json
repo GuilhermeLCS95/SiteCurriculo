@@ -9,12 +9,84 @@
       "PackagePath": "staticwebassets\\MyFiles\\CV.pdf"
     },
     {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\css\\Banner\\banner.png",
+      "PackagePath": "staticwebassets\\css\\Banner\\banner.png"
+    },
+    {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\adobecolor.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\adobecolor.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\arrow.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\coolors.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\coolors.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\csharp.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\csharp.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\css.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\english.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\english.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\flaticon.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\flaticon.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\git.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\git.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\html.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\intellij.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\intellij.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\java.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\javascript.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\javascript.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\paletton.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\paletton.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\resizeimages.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\resizeimages.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\spanish.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\spanish.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\sqlserver.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\sqlserver.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\visualstudio.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\visualstudio.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons\\github.png",
