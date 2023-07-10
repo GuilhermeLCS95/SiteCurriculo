@@ -1,0 +1,8 @@
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.csproj.AssemblyReference.cache
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.AssemblyInfoInputs.cache
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.AssemblyInfo.cs
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.csproj.CoreCompileInputs.cache
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.RazorAssemblyInfo.cache
+C:\Users\gui_f\source\repos\Guilherme\obj\Debug\netcoreapp3.1\Guilherme.RazorAssemblyInfo.cs

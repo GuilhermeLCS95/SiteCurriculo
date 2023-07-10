@@ -5,56 +5,137 @@
 
 <div class="icon">
     <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
-        <img id="img1" src="~/js/icons/linkedingray.png" onmouseover="newImgLinkedin()" onmouseout="oldImgLinkedin()">
+        <img src="~/js/icons/linkedingray.png" onmouseover="ChangeIcon(this,'js/icons/linkedin.png')" onmouseout="ChangeIcon(this,'js/icons/linkedingray.png')" />
     </a>
     <a href="https://github.com/GuilhermeLCS95" target="_blank">
-        <img id="img2" src="~/js/icons/githubgray.png" onmouseover="newImgGithub()" onmouseout="oldImgGithub()">
+        <img src="~/js/icons/githubgray.png" onmouseover="ChangeIcon(this,'js/icons/github.png')" onmouseout="ChangeIcon(this,'js/icons/githubgray.png')" />
     </a>
     <a href="Home/DownloadFile/" download>
-        <img id="img3" src="~/js/icons/resumeicongray.png" onmouseover="newImgResume()" onmouseout="oldImgResume()">
+        <img src="~/js/icons/resumeicongray.png" onmouseover="ChangeIcon(this,'js/icons/resumeicon.png')" onmouseout="ChangeIcon(this,'js/icons/resumeicongray.png')" />
     </a>
 </div>
 
 <div class="subtitle">
     <h2>Linguagens de programação</h2>
 </div>
-<div class="row">
-  <div class="card">
-    <div class="card-box-inside">
-          <a href="https://www.udemy.com/certificate/UC-1bb9a752-afa2-45ae-b47c-c68c9bb19d46/" target="_blank">
-             <img src="~/js/icons-cards/csharp.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/csharp.png')" />
-          </a>
-    </div>   
-    <div class="card-description">
-        <h2>C# ASP.NET</h2>
-        <p>Adicionar texto aqui.</p>
-    </div>
-  </div>
-  <div class="card">
-        <div class="card-box-inside"> 
-            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">
-                <img src="js/icons-cards/java.png" onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/java.png')" />
-            </a> 
-        </div>
-        <div class="card-description">
-        <h2>Java</h2>
-            <p>Adicionar texto aqui.</p>
-    </div>
-  </div>
 
-  <div class="card">
-        <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                <img src="js/icons-cards/javascript.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/javascript.png')" />
+<div class="row">
+    <div class="card">
+        <div class="box">
+            <a href="https://www.udemy.com/certificate/UC-1bb9a752-afa2-45ae-b47c-c68c9bb19d46/" target="_blank">
+                <img src="~/js/icons-cards/csharp.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
-        <h2>JavaScript</h2>
-            <p>Adicionar texto aqui.</p>
+            <h2>C# ASP.NET</h2>
+            <p>
+                Linguagem de programação primária com sólida experiência e certificações em diversos cursos complementares
+                à formação acadêmica.
+            </p>
+        </div>
     </div>
-  </div>    
+
+    <div class="card">
+        <div class="box">
+            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">
+                <img src="~/js/icons-cards/java.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Java</h2>
+            <p>
+                Linguagem de programação secundária, com nível de conhecimento intermediário. Também há alguns projetos de exemplo no GitHub.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">
+                <img src="~/js/icons-cards/javascriptes6.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>JavaScript ES 6</h2>
+            <p>
+                Profundo conhecimento e ampla experiência na utilização do JavaScript ES6 para criar aplicações web robustas e interativas.
+            </p>
+        </div>
+    </div>
+
+    <!--<div class="card">
+        <div class="card-box-inside">
+            <a href="https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170" target="_blank">
+                <img src="js/icons-cards/cpp.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/cpp.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>C++</h2>
+            <p>Principal linguagem de programação abordada no nível superior.</p>
+        </div>
+    </div> -->
+
+ 
+
+</div>
+
+<div class="subtitle">
+    <h2>Bibliotecas</h2>
+</div>
+<div class="row">
+    <div class="card">
+        <div class="box">
+            <a href="https://react.dev/learn" target="_blank">
+                <img src="~/js/icons-cards/react.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>React</h2>
+            <p>
+                Habilidades sólidas em componentização, manipulação de estado, roteamento e integração com APIs. 
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="subtitle">
+    <h2>Frameworks</h2>
+</div>
+<div class="row">
+    <div class="card">
+        <div class="box">
+            <a href="https://getbootstrap.com/" target="_blank">
+                <img src="~/js/icons-cards/bootstrap.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Bootstrap</h2>
+            <p>
+                Proficiente no framework de front-end Bootstrap, capacitado para criar interfaces responsivas e estilizadas com facilidade.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <a href="https://bulma.io/" target="_blank">
+                <img src="~/js/icons-cards/bulma.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Bulma</h2>
+            <p>
+                Amplo conhecimento do framework de CSS Bulma, permitindo a criação de interfaces estilizadas e responsivas de forma rápida e eficiente.
+            </p>
+        </div>
+    </div>
 </div>
 
 <div class="subtitle">
@@ -62,65 +143,47 @@
 </div>
 <div class="row">
     <div class="card">
-        <div class="card-box-inside">
-            <a href="https://visualstudio.microsoft.com/pt-br/vs/" target="_blank">
-                <img src="js/icons-cards/visualstudio.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/visualstudio.png')" />
+        <div class="box">
+            <a href="https://visualstudio.microsoft.com/pt-br/vs//" target="_blank">
+                <img src="~/js/icons-cards/visualstudio.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>Visual Studio</h2>
-            <p>Uma IDE bastante completa. Esse site está sendo desenvolvida nela.</p>
+            <p>
+                IDE desenvolvida pela Microsoft para desenvolvimento de software dedicado ao .NET Framework.
+            </p>
         </div>
     </div>
 
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
+            <a href="https://code.visualstudio.com/" target="_blank">
+                <img src="~/js/icons-cards/visualstudiocode.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Visual Studio Code</h2>
+            <p>
+                Editor de código versátil com suporte para depuração e controle de versionamento Git incorporado
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
             <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank">
-                <img src="js/icons-cards/intellij.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/intellij.png')" />
+                <img src="~/js/icons-cards/intellij.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>IntelliJ IDEA</h2>
-            <p>Uma excelente IDE para programação em linguagem Java.</p>
-        </div>
-    </div>
-</div>
-
-<div class="subtitle">
-       <h2>Linguagens de estilo</h2>        
-</div>
-<div class="row">
-    <div class="card">
-        <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="js/icons-cards/css.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/css.png')" />
-            </a>
-        </div>   
-         <div class="card-description">
-            <h2>CSS</h2>
-            <p>Adicionar texto aqui.</p>
-         </div>
-     </div>
-</div>
-
-<div class="subtitle">
-    <h2>Linguagens de marcação</h2>
-</div>
-
-<div class="row">
-    <div class="card">
-        <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="js/icons-cards/html.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/html.png')" />
-            </a>
-        </div>
-        <div class="card-description">
-            <h2>HTML</h2>
-            <p>Adicionar texto aqui.</p>
+            <p>
+                Plataforma OSS desenvolvida pela JetBrains para criar IDEs e ferramentas de desenvolvedor com reconhecimento de linguagem.
+            </p>
         </div>
     </div>
 </div>
@@ -131,15 +194,17 @@
 
 <div class="row">
     <div class="card">
-        <div class="card-box-inside">
-            <a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads" target="_blank">
-                <img src="js/icons-cards/sqlserver.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/sqlserver.png')" />
+        <div class="box">
+            <a href="https://www.mysql.com/" target="_blank">
+                <img src="~/js/icons-cards/mysql.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
-            <h2>SQL Server</h2>
-            <p>Adicionar texto aqui.</p>
+            <h2>MySQL</h2>
+            <p>
+                Sistema gerenciador de banco de dados que utiliza a linguagem SQL como interface. Utilizado em diversos projetos pessoais.
+            </p>
         </div>
     </div>
 </div>
@@ -150,15 +215,55 @@
 
 <div class="row">
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://git-scm.com/" target="_blank">
-                <img src="js/icons-cards/git.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/git.png')" />
+                <img src="~/js/icons-cards/git.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>GIT</h2>
-            <p>Adicionar texto aqui.</p>
+            <p>
+                Sistema de controle de versões distribuído, utilizado para organizar e versionar o código, sempre seguindo a metodologia GitFlow.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div class="subtitle">
+    <h2>Tira-dúvidas</h2>
+</div>
+
+<div class="row">
+    <div class="card">
+        <div class="box">
+            <a href="https://www.w3schools.com/" target="_blank">
+                <img src="~/js/icons-cards/w3schools.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>W3Schools</h2>
+            <p>
+                Site educacional voltado ao aprendizado de tecnologias web.
+                Seu conteúdo inclui tutoriais e referências relacionadas ao HTML, CSS e JavaScript.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+                <img src="~/js/icons-cards/mdnwebdocs.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>MDN Web Docs</h2>
+            <p>
+                Website oficial de Mozilla para desenvolvimento de padrões web.
+            </p>
         </div>
     </div>
 </div>
@@ -168,6 +273,7 @@
 </div>
 
 <div class="row">
+
     <div class="card">
         <div class="card-box-inside">
             <img src="js/icons-cards/english.png" />
@@ -190,33 +296,58 @@
 </div>
 
 <div class="subtitle">
-    <h2>Acervo e criação de ícones</h2>
+    <h2>Imagens</h2>
 </div>
 
 <div class="row">
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://www.flaticon.com/br/" target="_blank">
-                <img src="js/icons-cards/flaticon.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/flaticon.png')" />
+                <img src="~/js/icons-cards/flaticon.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>Flaticon</h2>
-            <p>Mais de 9.7 milhões de ícones prontos para uso.</p>
+            <p>
+                Plataforma online que disponibiliza ícones vetoriais em diversos tamanhos, cores e formatos.
+            </p>
         </div>
     </div>
 
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://www.reduceimages.com/" target="_blank">
-                <img src="js/icons-cards/resizeimages.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/resizeimages.png')"/>
+                <img src="~/js/icons-cards/resizeimages.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>ReduceImages</h2>
-            <p>Altera o tamanho de imagens, possibilitando a criação de ícones.</p>
+            <p>
+                Website gratuito para redimensionar imagens e modificar seu formato, comprimir e salvar como JPG, PNG e GIF.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="subtitle">
+    <h2>Edição de imagens</h2>
+</div>
+
+<div class="row">
+    <div class="card">
+        <div class="box">
+            <a href="https://www.adobe.com/br/products/photoshop.html" target="_blank">
+                <img src="~/js/icons-cards/photoshop.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Photoshop</h2>
+            <p>
+                Software editor de imagens bidimensionais, possuo experiência com a ferramenta por meio do curso técnico e ensino superior.
+            </p>
         </div>
     </div>
 </div>
@@ -227,56 +358,47 @@
 
 <div class="row">
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://coolors.co/" target="_blank">
-                <img src="js/icons-cards/coolors.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/coolors.png')" />
+                <img src="~/js/icons-cards/coolors.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>Coolors</h2>
-            <p>Fornece paletas de cores geradas aleatoriamente, recomendação de usuários e extração de paleta de cores de alguma imagem que o usuário escolher.</p>
+            <p>
+                Fornece paletas de cores geradas aleatoriamente, recomendação de usuários e extração de paleta de cores de alguma imagem que o usuário escolher.
+            </p>
         </div>
     </div>
 
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank">
-                <img src="js/icons-cards/paletton.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/paletton.png')" />
+                <img src="~/js/icons-cards/paletton.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>Paletton</h2>
-            <p>Excelente para escolher paletas de cores para o seu site. Conta até mesmo com exemplos de como o site ficaria com as cores escolhidas.</p>
+            <p>
+                Excelente para escolher paletas de cores para o seu site. Conta até mesmo com exemplos de como o site ficaria com as cores escolhidas.
+            </p>
         </div>
     </div>
 
     <div class="card">
-        <div class="card-box-inside">
+        <div class="box">
             <a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">
-                <img src="js/icons-cards/adobecolor.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/adobecolor.png')" />
+                <img src="~/js/icons-cards/adobecolor.png" id="visible-image" />
+                <img src="js/icons-cards/arrow.png" id="hidden-image" />
             </a>
         </div>
         <div class="card-description">
             <h2>Adobe Color</h2>
-            <p>Conta com disco de cores, extração de cores e gradientes e mais funcionalidades.</p>
+            <p>
+                Conta com disco de cores, extração de cores e gradientes e mais funcionalidades.
+            </p>
         </div>
     </div>
 </div>
-
-<div class="footer">
-    <p>Site criado por Guilherme Luís. Sinta-se livre para entrar em contato.</p>
-    <div class="footer-iconFooter">
-        <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
-            <img src="~/js/icons/linkedingray.png" onmouseover="ChangeIcon(this,'js/icons/linkedin.png')" onmouseout="ChangeIcon(this,'js/icons/linkedingray.png')" />
-        </a>
-        <a href="https://github.com/GuilhermeLCS95" target="_blank">
-            <img src="~/js/icons/githubgray.png" onmouseover="ChangeIcon(this,'js/icons/github.png')" onmouseout="ChangeIcon(this,'js/icons/githubgray.png')" />
-        </a>
-        <a href="Home/DownloadFile/" download>
-            <img src="~/js/icons/resumeicongray.png" onmouseover="ChangeIcon(this,'js/icons/resumeicon.png')" onmouseout="ChangeIcon(this,'js/icons/resumeicongray.png')" />
-        </a>
-    </div>
-</div>          

@@ -1,0 +1,7 @@
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\Guilherme.exe
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\Guilherme.dll
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\Guilherme.deps.json
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\Guilherme.runtimeconfig.json
+C:\Users\gui_f\source\repos\Guilherme\obj\Release\net7.0\PubTmp\Out\Guilherme.pdb

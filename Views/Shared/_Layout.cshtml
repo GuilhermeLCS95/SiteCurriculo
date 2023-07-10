@@ -3,25 +3,26 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Guilherme</title>
+    <title>Guilherme</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Guilherme.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <div class="header">    
-    <div class="header-container">
-       <span class="header-content-name">
-          Olá, meu nome é Guilherme Luís e sou um
-       </span>
-       <h1 class="header-content-title">
-          Desenvolvedor Full Stack
-       </h1>
-      <span class="header-content-welcome">
-         Seja bem-vindo ao meu site!
-      </span>
-    </div>
-    </div>
+    <header>
+        <div class="header-container">
+            <h2>
+                Olá, meu nome é Guilherme Luís e sou um
+            </h2>
+            <h1>
+                Desenvolvedor Full Stack
+            </h1>
+            <h2>
+                Site criado em C# e .NET. Seja bem vindo!
+            </h2>
+        </div>
+    </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -32,5 +33,21 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <footer>
+        <p>Site criado por Guilherme Luís na linguagem C# utilizando a framework ASP.NET.</p>
+        <p>Sinta-se livre para entrar em contato.</p>
+        <div class="footer-iconFooter">
+            <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
+                <img src="~/js/icons/linkedingray.png" onmouseover="ChangeIcon(this,'js/icons/linkedin.png')" onmouseout="ChangeIcon(this,'js/icons/linkedingray.png')" />
+            </a>
+            <a href="https://github.com/GuilhermeLCS95" target="_blank">
+                <img src="~/js/icons/githubgray.png" onmouseover="ChangeIcon(this,'js/icons/github.png')" onmouseout="ChangeIcon(this,'js/icons/githubgray.png')" />
+            </a>
+            <a href="Home/DownloadFile/" download>
+                <img src="~/js/icons/resumeicongray.png" onmouseover="ChangeIcon(this,'js/icons/resumeicon.png')" onmouseout="ChangeIcon(this,'js/icons/resumeicongray.png')" />
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
